@@ -1,0 +1,115 @@
+body {
+    background-image: url(../images/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Dosis', sans-serif !important;
+    font-size: large;
+    color: #fff;
+}
+
+.form-control {
+    transition: all 0.2s;
+    background-color: white;
+    border-color: white !important;
+    width: 83vh;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    border: none;
+}
+
+.form-control:focus {
+    box-shadow: 0 0 0 0.2rem #0e0d0d9a;
+    background-color: rgb(223, 60, 60);
+    color: white;
+}
+
+.login {
+    position: relative;
+    margin-top: 150px !important;
+    height: 50vh;
+    width: 85vh;
+    background-color: #1B2430 !important;
+    color:#181817!important;
+    z-index: 10;
+}
+
+.btn {
+    border: none;
+    border-radius: 10px;
+}
+
+.userAlert {
+    background-color: black;
+    color: rgb(209, 24, 24);
+    font-size: 18px !important;
+
+}
+
+#m3lsh {
+    color: white !important;
+    text-decoration: none;   
+}
+
+#m3lsh:hover {
+    color: blue !important;
+}
+
+#allData {
+    font-size: 20px !important;
+    font-style: bold;
+}
+
+.overLay{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.795);
+    backdrop-filter: blur(1px);
+    z-index: 5;
+}
+
+.box {
+    position:absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    width: 60vh;
+    background-color: white;
+    padding: 60px;
+    border-radius: 5px;
+    box-shadow: 0 3rem 3rem rgba(0, 0, 0, 0.3);
+    z-index: 11;
+}
+
+.par {
+    color: black;
+    text-align: center;
+    font-size: 50px;
+}
+
+.close-box{
+    position: absolute;
+    top: 1.2rem;
+    right: 2rem;
+    font-size: 5rem;
+    color: red;
+    cursor: pointer;
+    border: none;
+    background: none;
+}
+
+.hidden {
+    display: none;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
